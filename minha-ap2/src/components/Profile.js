@@ -1,8 +1,16 @@
-const Profile = () => {
+import Card from "./Card";
+import Avatar from "./Avatar"
+export default function Profile() {
     return(
-        
-        <img src="https://www.sitiodamata.com.br/pub/media/webp_image/wysiwyg/wildflowers-1.webp"/>
-    )
+        <Card>
+            <Avatar
+            size={100}
+            person={{
+                name: 'Aluno',
+                imageId: 'huadkp1'
+            }}
+            />
+        </Card>
+    );
 
 }
-export default Profile;
