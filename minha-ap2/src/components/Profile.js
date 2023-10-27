@@ -1,5 +1,5 @@
 import Card from "./Card";
-import Avatar from "./Avatar"
+import Avatar from "./Avatar";
 export default function Profile() {
     return(
         <Card>
