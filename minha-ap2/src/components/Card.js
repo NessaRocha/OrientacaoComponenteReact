@@ -1,4 +1,4 @@
-const Gallery = () => {
+const Card = () => {
     return(
         <>
         <h5>Nome</h5>
@@ -8,4 +8,4 @@ const Gallery = () => {
     )
 
 }
-export default Gallery;
+export default Card;

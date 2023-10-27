@@ -1,6 +1,6 @@
 
 import './App.css';
-import Gallery from './components/Gallery';
+import Card from './components/Card';
 import Profile from './components/Profile';
 import { Button } from './components/Button';
 import Menu from './components/Menu';
@@ -12,7 +12,7 @@ function App() {
     <Menu/>
     <Button/>
     <Profile/>
-    <Gallery/>
+    <Card/>
   
     </>
   );
