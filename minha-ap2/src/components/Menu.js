@@ -1,5 +1,4 @@
-import logo from '../logooo.png';
-
+import logo from 'logooo.png';
 export default function Menu() {
   return (
     <div className="App">
