@@ -3,10 +3,14 @@ module.exports = {
         "browser": true,
         "es2021": true
     },
-    "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended"
+    "extends":["airbnb","prettier"],
+    "pluguins":[
+        "prettier"
     ],
+    "parserOpions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
     "overrides": [
         {
             "env": {
